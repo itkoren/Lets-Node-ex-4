@@ -3,10 +3,10 @@ Forth Exercise (Data Serving & Long Running Operations)
 
 Please complete the following steps:
  
-1. Create an HTTP server named **sentigator** which receives input term, query twitter for the given term and uses the **"sentiment"** module to parse the returned tweets. Do it by:
- * Creating a directory named **sentigator**
+1. Create an HTTP server named **"sentigator"** which receives input term, query twitter for the given term and uses the **"sentiment"** module to parse the returned tweets. Do it by:
+ * Creating a directory named **"sentigator"**
  * Creating a file named **"sentigator.js"** inside the **"sentigator"** directory
- * Creating a package.json for **sentigator**
+ * Creating a package.json for **"sentigator"**
  * Creating HTTP server which receives **"term=xxx"** query parameter
  * Using the **"request"** module for querying **"twitxy"** (twitter proxy) in the following format: "http://twitxy.itkoren.com/?lang=en&count=5&term=xxx"
  * The returned structure will include the following {"statuses":[{"id":0,"id_str":"0","text":"xxx"}]} - Using the **"sentiment"** module from the previous exercise for parsing the text of the statuses received
