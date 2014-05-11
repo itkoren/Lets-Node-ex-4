@@ -16,4 +16,4 @@ Please complete the following steps:
  * Returning the combined parsed result in JSON format to the client and printing it - No fancy UI for now :-)
 
 #####Use the **"sentiment"** module in this repository as a starting point for your "sentiment" code
-#####*You can also use the boilerplate server.js as a staring point for your server code*
+#####*You can also use the boilerplate server.js as a starting point for your server code*
