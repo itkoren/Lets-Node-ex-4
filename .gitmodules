@@ -1,0 +1,6 @@
+[submodule "examples/data-serving"]
+	path = examples/data-serving
+	url = git@github.com:itkoren/Lets-Node-exp-data-serving.git
+[submodule "examples/long-running"]
+	path = examples/long-running
+	url = git@github.com:itkoren/Lets-Node-exp-long-running.git
